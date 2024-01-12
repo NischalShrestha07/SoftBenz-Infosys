@@ -157,9 +157,128 @@ ul {
     padding: 10px;
 }
 
+
 #Con3Slot1 {
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+#Con3Slot2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin: 25px;
+}
+
+.box1 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 img {
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container3 {
+    border: 7px solid black;
+    padding: 50px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.box1 {
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.box1 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* .btn2 {
+    padding: 11px;
+    margin-top: 12px;
+
+} */
+
+.box1 p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.box2 {
+    padding: 37px;
+}
+
+.box3 {
+    padding: 33px;
+}
+
+.box4 {
+    padding: 20px;
+    margin-left: 12px;
+}
+
+.box5 {
+    padding: 35px;
+    margin-left: 50px;
+}
+
+.box6 {
+    padding: 30px;
 }
