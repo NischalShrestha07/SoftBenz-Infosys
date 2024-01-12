@@ -184,50 +184,67 @@ ul {
     margin: 25px;
 }
 
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+    background: rgb(191, 58, 58);
+    color: white;
+
+}
+
 .box1 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-left: 5vw;
 }
 
 .box2 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5vw;
 }
 
 .box3 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 3vw;
 }
 
 .box4 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 2vw;
 }
 
 .box5 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1vw;
 }
 
 .box6 img {
-    width: 13vw;
+    width: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 2vw;
 }
 
 #container3 {
+    background: linear-gradient(50deg, rgb(174, 173, 185), rgb(184, 246, 130));
     border: 7px solid black;
     padding: 50px;
     margin: 80px;
@@ -249,11 +266,18 @@ ul {
     font-size: 30px;
 }
 
-/* .btn2 {
-    padding: 11px;
+.btn2 {
+    padding: 3px;
+    font-size: 15px;
+    background: green;
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
     margin-top: 12px;
+    margin-left: 63px;
+    cursor: pointer;
 
-} */
+}
 
 .box1 p {
     margin-top: 15px;
@@ -281,4 +305,95 @@ ul {
 
 .box6 {
     padding: 30px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+}
+
+.para2 {
+    padding: 30px;
+    margin: 30px;
+}
+
+.para2 p {
+    margin: 20px;
+}
+
+.para2 span {
+    font-size: 25px;
+}
+
+.but {
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: forestgreen;
+    font-weight: bold;
+    background: rgb(181, 202, 181);
+
+}
+
+.but:hover {
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    margin: 40px;
+    background: grey;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#contact h1 {
+    font-size: 35px;
+    font-weight: bold;
+
+
+}
+
+.links p:hover {
+    color: greenyellow;
+}
+
+.company p:hover {
+    color: greenyellow;
+}
+
+.another h1 {
+    margin-top: 40px;
+
+}
+
+.another input {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.another p {
+    margin: 30px;
+}
+
+.another a {
+
+    margin: 10px;
+    font-size: 70px;
+
 }
