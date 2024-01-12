@@ -7,6 +7,7 @@
 
 .navbar {
     top: 0;
+    background: white;
     z-index: 100;
     position: sticky;
     display: flex;
@@ -18,6 +19,7 @@
 
 .navbar img {
     width: 8vw;
+    margin-left: 40px;
 }
 
 .navbar span {
@@ -58,9 +60,106 @@ ul {
 }
 
 .navbar li:hover {
-    border-bottom: 5px solid orangered;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;
+    border-bottom: 3px solid green;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
     font-weight: bold;
     color: green;
+    transform: scale(1.1);
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    background: linear-gradient(45deg, rgb(207, 214, 217), rgb(142, 231, 145));
+    border-radius: 20px;
+    margin: 40px;
+}
+
+#mainContainer img {
+    width: 22vw;
+    border: 2px solid black;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 11px;
+    padding: 4px;
+    margin: 10px;
+
+}
+
+.container1 {
+    margin: 40px;
+
+}
+
+.container1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.container1 p {
+    margin: 20px 7px;
+    font-size: 20px;
+
+}
+
+.btn {
+    padding: 12px;
+    background: rgb(218, 229, 218);
+    color: green;
+    font-size: 20px;
+    border: 2px solid green;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px black;
+
+}
+
+.btn:hover {
+    background: green;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    font-weight: bold;
+    font-size: 20;
+
+}
+
+.Con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    margin: 30px;
+    /* color: white; */
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(182, 169, 194), rgb(255, 166, 152));
+}
+
+.container2 span {
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container2 p {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.para p {
+    font-size: 25px;
+    font-style: oblique;
+    text-align: justify;
+    padding: 10px;
+}
+
+#Con3Slot1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
